@@ -1,11 +1,74 @@
-# 💫 About Me:
-Final-year Computer Science student at Zagazig University with deep specialization in Machine Learning, Deep Learning, and Computer Vision. Designed and deployed production-grade AI systems achieving state-of-the-art accuracy across medical imaging, agricultural diagnostics, and digital security domains. Strong foundations in model architecture design, training optimization, and MLOps deployment pipelines. Certified by NVIDIA, ITI, NTI, and Huawei. Results-oriented and experienced working on end-to-end AI products under real-world constraints.
+<div align="center">
 
+# Mostafa Samer
+**Machine Learning Engineer · Computer Vision**
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/mstfasmir) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](www.linkedin.com/in/mostafa-samer) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/mostafa-samer)
+[![Kaggle](https://img.shields.io/badge/Kaggle-20BEFF?style=flat&logo=kaggle&logoColor=white)](https://kaggle.com/mstfasmir)
+[![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat&logo=huggingface&logoColor=black)](https://huggingface.co/mstfasmir)
 
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+</div>
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+---
+
+Final-year Computer Science student at Zagazig University (Graduation: June 2026), specializing in deep learning for medical imaging and production ML deployment. I build systems end-to-end — from dataset construction and training on Kaggle T4/P100 GPUs, to ONNX export and FastAPI/HuggingFace Spaces deployment.
+
+Current focus: vision-language models for clinical dermatology and multi-modal AI in low-resource Egyptian healthcare settings.
+
+---
+
+## Featured Projects
+
+### 🔬 Skin Disease Classifier — 97.47% TTA Accuracy
+**35-class, 262K-image dermatology classifier using Swin-Base transformer**
+- Solved JPEG decode bottleneck via LMDB → reduced epoch time from ~3000s to ~180s
+- 7-phase progressive layer unfreezing with SAM optimizer + SWA + MixUp + FocalLoss
+- Deployed to HuggingFace Spaces as `skin-scan-v2`: FastAPI backend, ONNX Runtime inference, GradCAM visualization, TTA, prediction logging
+- ONNX weights hosted at [`mstfasmir/skin-scan-weights`](https://huggingface.co/mstfasmir/skin-scan-weights)
+
+`PyTorch` `timm` `Swin-Base` `ONNX Runtime` `FastAPI` `HuggingFace Spaces`
+
+---
+
+### 🎥 Football Match Analysis Pipeline
+**Tactical analysis system for broadcast footage**
+- YOLOv8-m + ByteTrack player tracking · KMeans jersey team classification · Pitch homography for tactical coordinate mapping
+- Exports structured data for Tableau visualization
+- Targets Kaggle T4 GPU with public Roboflow + DFL Bundesliga datasets
+
+`YOLOv8` `ByteTrack` `OpenCV` `Homography` `KMeans`
+
+---
+
+### 🐆 Jaguar Individual Re-Identification (Kaggle Competition)
+- Swin-Small (0.86 LB) → ConvNeXtV2-Base pipeline
+- Diagnosed critical RGBA→RGB conversion bug corrupting pixel values across train/inference
+
+`timm` `ConvNeXtV2` `Metric Learning`
+
+---
+
+## Stack
+
+| Domain | Tools |
+|---|---|
+| **Modeling** | PyTorch · timm · HuggingFace Transformers · scikit-learn |
+| **CV** | Swin Transformer · ConvNeXt · YOLOv8 · OpenCV · LMDB |
+| **Optimization** | SAM · SWA · FocalLoss · EMA · MixUp · AMP |
+| **Deployment** | ONNX Runtime · FastAPI · HuggingFace Spaces · Streamlit |
+| **Training Infra** | Kaggle (T4/P100) · DDP · WeightedRandomSampler |
+| **Languages** | Python · C++ |
+
+---
+
+## Certifications
+
+NVIDIA Deep Learning · ITI · NTI · Huawei ICT
+
+---
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=mstfasmir&show_icons=true&hide_border=true&theme=default&hide=stars&count_private=true)
+
+</div>
